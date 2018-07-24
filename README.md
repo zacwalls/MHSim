@@ -4,4 +4,4 @@
 
 ## Installation
 
-> No need to install. Just type `git clone https://github.com/zacwalls/MHSim.git` and cd into the directory. Then type `python script.py` to run the simulation. 
+> No need to install. Just open a new terminal window and then type `git clone https://github.com/zacwalls/MHSim.git`. Then `cd MHSim`. From there, install the required libraries with `pip install -r requirements.txt --user`. After that, you can run the simulation with `python script.py`. 
