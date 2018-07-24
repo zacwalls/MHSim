@@ -54,7 +54,7 @@ def main(doors, iterations):
 
 	click.echo("Switch wins: %.2f" % ((switch_win/iterations)*100) + "%")
 	click.echo("Non-switch wins: %.2f" % ((not_switch_win/iterations)*100) + "%")
-	click.echo("Executed in %.2f" % (time() - start) + " seconds")
+	click.echo("Executed %d times in %.2f" % (iterations, (time() - start)) + " seconds")
 
 
 if __name__ == '__main__':
